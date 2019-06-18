@@ -29,3 +29,11 @@ body{
      top: 40%;
      margin-top: -85px;
  }
+
+#contact{
+    padding-top:200px;
+    height:800px;
+}
+#contactCardBody p{
+font-size:20px;
+}
