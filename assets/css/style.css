@@ -2,5 +2,30 @@ body{
     background-image: url("../images/bg.gif");
     background-repeat: no-repeat;
     background-size: cover;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color:#fff;
 }
+.card{
+    background: transparent;
+}
+#bgNav .collapse ul li a{
+    color:#fff;
+    font-size:25px;
+}
+.name{
+    letter-spacing: 2px;
+    text-transform:uppercase; 
+    font-weight: bold;
+}
+.subname{
+    letter-spacing: 1px;
+}
+#about{
+    height:800px;
+     vertical-align: middle;
+    
+ }
+ #about div .card{
+     top: 40%;
+     margin-top: -85px;
+ }
