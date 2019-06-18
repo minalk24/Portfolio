@@ -9,57 +9,167 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
-    <!-- style -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <title>Portfolio!</title>
+    <!-- font awesome -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <!-- css -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Minal Kharche Portfolio!</title>
 </head>
 
 <body>
-    <div class="container">
-        <nav class="navbar navbar-expand-lg navbar-light">
-            <a class="navbar-brand text-white" href="#">Logo</a>
 
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top" id="bgNav">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
 
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link text-white" href="#">About <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Portfolio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-white" href="#">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="#about">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="#skills">Skills</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contact</a>
+                </li>
+            </ul>
+
+        </div>
+    </nav>
 
 
-        <div class="row">
-            <div class="col-md-6">
-                <div class="mt-5">
-                    <h1 class="text-white">Minal Kharche</h1>
-                    <h4 class="text-white">Full Stack Developer!</h4>
-                    <p class="text-white">My name is Minal Kharche and I am currently training to become
-                        a full stack web developer.<br> I am attending UC Berkeley bootcamp in San Francisco.</p>
+    <div class="container-fluid">
+        <!-- about -->
+        <div class="row" id="about">
+            <div class="col-md-12">
+                <div class="card text-center">
+                    <div class="card-body">
+                        <h1 class="name">Minal Kharche</h1>
+                        <h2 class="subName mt-4">Full Stack Web Developer</h2>
+                        <a href="#skills" class="btn btn-outline-primary mt-3"><i
+                                class="fas fa-arrow-circle-down"></i>Learn More</a>
+                    </div>
                 </div>
-
-            </div>
-            <div class="col-md-6">
-
             </div>
         </div>
 
+        <!-- skills -->
+        <div class="row mt-5 " id="skills">
+            <div class="col-md-12 mt-5 mb-5">
+                <h2 class="text-center mb-5">SKILLS</h2>
+                <!-- 1st row card deck -->
+                <div class="card-deck justify-content-center">
+                    <div class="card mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">BOOTSTRAP</div>
+                        <div class="card-body">
+                            <img class="mx-auto d-block img-fluid img-responsive"
+                                src="assets/images/icons/bootstrap.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card inline mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">GITHUB</div>
+                        <div class="card-body">
+                            <img class="mx-auto d-block img-fluid img-responsive" src="assets/images/icons/github.png"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="card inline mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">JQUERY</div>
+                        <div class="card-body">
+                            <img class="mx-auto d-block img-fluid img-responsive" src="assets/images/icons/jquery.jpeg"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="card inline mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">JAVASCRIPT</div>
+                        <div class="card-body">
+                            <img class="mx-auto d-block img-fluid img-responsive" src="assets/images/icons/js.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- 2nd row card deck -->
+                <div class="card-deck justify-content-center" id="skills">
+                    <div class="card mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">HTML</div>
+                        <div class="card-body">
+                            <img class="mx-auto d-block img-fluid img-responsive" src="assets/images/icons/html.png"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="card inline mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">API</div>
+                        <div class="card-body">
+                            <img class="mx-auto d-block img-fluid img-responsive" src="assets/images/icons/api.png"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="card inline mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">JSON</div>
+                        <div class="card-body">
+                            <img class="mx-auto d-block img-fluid img-responsive" src="assets/images/icons/json.png"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="card inline mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">CSS</div>
+                        <div class="card-body">
+                            <img class="mx-auto d-block img-fluid img-responsive" src="assets/images/icons/css.png"
+                                alt="">
+                        </div>
+                    </div>
+                </div>
+                <!-- 3rd row card deck -->
+                <div class="card-deck justify-content-center" id="skills">
+                    <div class="card mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">BOOTSTRAP</div>
+                        <div class="card-body">
+                            <img class="mx-auto d-block img-fluid img-responsive"
+                                src="assets/images/icons/mediaqueries.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card inline mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">MEDIA QUERIES</div>
+                        <div class="card-body">
+                            <img class="mx-auto d-block img-fluid img-responsive"
+                                src="assets/images/icons/mediaqueries.png" alt="">
+                        </div>
+                    </div>
+                    <div class="card inline mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">JSON</div>
+                        <div class="card-body">
+                            <img class="mx-auto d-block img-fluid img-responsive" src="assets/images/icons/json.png"
+                                alt="">
+                        </div>
+                    </div>
+                    <div class="card inline mb-3" style="max-width: 18rem;">
+                        <div class="card-header text-center">BOOTSTRAP</div>
+                        <div class="card-body">
+                            <img class="mx-auto d-block img-fluid img-responsive"
+                                src="assets/images/icons/bootstrap.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </div>
 
-
     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
         integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
         crossorigin="anonymous"></script>
