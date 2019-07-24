@@ -42,3 +42,24 @@ font-size:20px;
      margin:0 auto;
     
  }
+ .card-body a{
+     color:#eee;
+     font-size:20px;
+     font-weight:normal;
+ }
+ .card-body .link a:hover{
+    text-decoration: none;
+}
+.card .card-header{
+    font-size: 20px;
+}
+#contactCardBody p{
+    font-size:20px;
+}
+#contactCardBody p a{
+    font-size:30px;
+    padding:5px;
+}
+.copyright{
+    font-size:18px;
+}
